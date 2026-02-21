@@ -4,6 +4,7 @@
 
 🌐 **[www.ClawBeacon.xyz](https://www.ClawBeacon.xyz)** — Live Demo & Documentation
 
+🐦 **[x.com/clawbeacon](https://x.com/clawbeacon)** — Our Official X account
 > 🚧 **Under Active Development** — We're continuously improving this skill! Feedback and contributions welcome.
 
 Claw Beacon is a beautiful, real-time mission control dashboard for managing AI agent workflows. Track tasks, monitor agent status, and coordinate your AI team through an intuitive Kanban interface with live updates.
