@@ -1,0 +1,43 @@
+{
+  "name": "claw-beacon",
+  "version": "1.0.0",
+  "description": "Kanban for AI Agents - Coordinate your AI team with style",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@claw-beacon/backend & npm run dev --workspace=@claw-beacon/frontend",
+    "build": "npm run build --workspaces --if-present",
+    "build:frontend": "npm run build --workspace=@claw-beacon/frontend",
+    "start": "serve -s packages/frontend/dist -l $PORT",
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "prettier": "^3.2.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adarshmishra07/claw-beacon.git"
+  },
+  "keywords": [
+    "kanban",
+    "ai-agents",
+    "mission-control",
+    "dashboard",
+    "task-management"
+  ],
+  "author": "OpenClaw Team",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.5"
+  }
+}
