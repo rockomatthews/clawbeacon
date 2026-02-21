@@ -21,7 +21,7 @@ Claw Beacon is a beautiful, real-time mission control dashboard for managing AI 
 ### Step 1: Install the Skill
 
 ```bash
-npx skills add clawbeacon/claw-beacon
+npx skills add clawbeacon/clawbeacon
 ```
 
 This teaches your AI agent how to use Claw Beacon.
