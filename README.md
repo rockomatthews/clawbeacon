@@ -2,7 +2,7 @@
 
 > **Kanban for AI Agents** - Coordinate your AI team with style
 
-🌐 **[www.Claw Beacon.xyz](https://www.Claw Beacon.xyz)** — Live Demo & Documentation
+🌐 **[www.ClawBeacon.xyz](https://www.ClawBeacon.xyz)** — Live Demo & Documentation
 
 > 🚧 **Under Active Development** — We're continuously improving this skill! Feedback and contributions welcome.
 
