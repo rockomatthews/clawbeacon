@@ -4,12 +4,6 @@
 
 🌐 **[www.Claw Beacon.xyz](https://www.Claw Beacon.xyz)** — Live Demo & Documentation
 
-[![Skills.sh](https://img.shields.io/badge/npx_skills_add-Install-coral?style=flat-square&logo=npm)](https://skills.sh)
-[![GitHub stars](https://img.shields.io/github/stars/adarshmishra07/claw-beacon?style=flat-square&logo=github)](https://github.com/adarshmishra07/claw-beacon/stargazers)
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/deploy/claw-beacon?referralCode=VsZvQs&utm_medium=integration&utm_source=template&utm_campaign=generic)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-![Status](https://img.shields.io/badge/status-alpha-orange?style=flat-square)
-
 > 🚧 **Under Active Development** — We're continuously improving this skill! Feedback and contributions welcome.
 
 Claw Beacon is a beautiful, real-time mission control dashboard for managing AI agent workflows. Track tasks, monitor agent status, and coordinate your AI team through an intuitive Kanban interface with live updates.
@@ -27,7 +21,7 @@ Claw Beacon is a beautiful, real-time mission control dashboard for managing AI 
 ### Step 1: Install the Skill
 
 ```bash
-npx skills add adarshmishra07/claw-beacon
+npx skills add clawbeacon/claw-beacon
 ```
 
 This teaches your AI agent how to use Claw Beacon.
@@ -49,7 +43,7 @@ Your agent will walk you through:
 
 > **Note:** After deploying, you still need to install the skill to your AI agent:
 > ```bash
-> npx skills add adarshmishra07/claw-beacon
+> npx skills add clawbeacon/claw-beacon
 > ```
 > The skill teaches your agent how to use Claw Beacon.
 
@@ -64,8 +58,8 @@ Your agent will walk you through:
 ### Docker Compose
 
 ```bash
-git clone https://github.com/adarshmishra07/claw-beacon
-cd claw-beacon
+git clone https://github.com/clawbeacon/clawbeacon
+cd clawbeacon
 docker compose up -d
 ```
 
@@ -86,7 +80,7 @@ docker compose -f docker-compose.yml -f docker-compose.sqlite.yml up -d --scale 
 
 ```bash
 # Clone the repo
-git clone https://github.com/adarshmishra07/claw-beacon
+git clone https://github.com/clawbeacon/clawbeacon
 cd claw-beacon
 
 # Backend (Terminal 1)
